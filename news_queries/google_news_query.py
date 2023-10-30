@@ -15,7 +15,7 @@ def scrape_google_news(stock_symbol):
 
     articles = []
     # Display the top news hits
-    for article in top_news[:10]:
+    for article in top_news[:20]:
         print("Title:", article['title'])
         articles.append(article)
     
