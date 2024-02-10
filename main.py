@@ -7,7 +7,7 @@ price, articles = query.getData()
 print(price)
 print(articles)
 
-openai.api_key = "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"
+openai.api_key = "{redacted}"
 
 response = openai.ChatCompletion.create(
     model='gpt-3.5-turbo',
